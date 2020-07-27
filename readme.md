@@ -7,15 +7,15 @@ Make sure to follow all these steps exactly as explained below. Do not miss any 
 -make sure you have installed python and set python in your environmet varialbes
 -if not then run these command 
 
- npm install -g node-gyp
- npm install --g --production windows-build-tools
+- npm install -g node-gyp
+- npm install --g --production windows-build-tools
 
 after that set path in environment variables C:\Users\ben\.windows-build-tools\python27\python.exe 
 
 then install
 
- npm install bcryptjs
- and in node-modules rename bcryptjs to bcrypt
+- npm install bcryptjs
+- and in node-modules rename bcryptjs to bcrypt
 
 after these steps your error will be resolved ;) 
 
